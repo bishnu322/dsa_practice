@@ -4,4 +4,5 @@ const removeElemFromArr = (arrData, toRemove) => {
   }
   return arrData.filter((elem) => elem !== toRemove);
 };
-console.log(removeElemFromArr([1, 3, 2, 3, 2, 5, 4, 54], 5));
+const array = [1, 3, 2, 3, 2, 5, 4, 54];
+console.log(removeElemFromArr(array, 5));
