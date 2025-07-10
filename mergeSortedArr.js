@@ -4,7 +4,6 @@ const num2 = [2, 5, 6];
 const n = 3;
 
 const mergeSortedArr = (num1, m, num2, n) => {
-  //initializing from where to start
   let pointer1 = m - 1;
   let pointer2 = n - 1;
   let current = m + n - 1;
