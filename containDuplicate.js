@@ -1,6 +1,7 @@
 //? check whether the give array of element contains duplicate or not
 const checkDuplicate = (arr) => {
   let obj = {};
+
   arr.forEach((elem, i) => {
     if (obj[elem]) {
       obj[elem] = obj[elem] + 1;

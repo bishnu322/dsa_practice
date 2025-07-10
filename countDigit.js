@@ -8,10 +8,12 @@ console.log(countDigit(0));
 //! in number only
 const digitCount = (num) => {
   let count = 0;
+
   while (num > 0) {
     num = Math.floor(num / 10);
     count++;
   }
+
   return count;
 };
 console.log(digitCount(23782739798737));
