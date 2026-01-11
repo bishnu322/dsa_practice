@@ -3,10 +3,9 @@ const groupByProperty = (user) => {
 
   user.forEach((element) => {
     if (propertyObj[element.city]) {
-      console.log(element.city);
-      propertyObj[element.city] = [...propertyObj[element.city], element.name];
+      propertyObj[element.city] = [...propertyObj[element.city], element];
     } else {
-      propertyObj[element.city] = [element.name];
+      propertyObj[element.city] = [element];
     }
   });
 
